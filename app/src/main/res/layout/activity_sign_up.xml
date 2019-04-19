@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_add_img"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="70dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42.86dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/rectangle"
+        android:hint="UserName"
+        android:textColorHint="#000000"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42.86dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="300dp"
+        android:hint="Email"
+        android:textColorHint="#000000"
+        android:inputType="textWebEmailAddress"
+        android:padding="10dp"
+        android:background="@drawable/rectangle"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42.86dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="360dp"
+        android:hint="Password"
+        android:textColorHint="#000000"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:background="@drawable/rectangle"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="42.86dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="420dp"
+        android:hint="Confirme Password"
+        android:textColorHint="#000000"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:background="@drawable/rectangle"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="42.86dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="490dp"
+        android:text="Submit"
+        android:padding="10dp"
+        android:background="@drawable/rectangle"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>
