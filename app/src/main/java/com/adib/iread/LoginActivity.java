@@ -18,6 +18,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent sign = new Intent(LoginActivity.this,SignUpActivity.class);
                 startActivity(sign);
+
             }
         });
     }
