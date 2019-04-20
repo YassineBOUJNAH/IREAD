@@ -8,6 +8,7 @@
     tools:context=".SignUpActivity"
     android:background="@drawable/background">
     <ImageView
+        android:id="@+id/signImg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/ic_add_img"
@@ -15,6 +16,7 @@
         android:layout_marginTop="70dp"/>
 
     <EditText
+        android:id="@+id/signName"
         android:layout_width="match_parent"
         android:layout_height="42.86dp"
         android:layout_marginStart="2dp"
@@ -28,6 +30,7 @@
          />
 
     <EditText
+        android:id="@+id/signMail"
         android:layout_width="match_parent"
         android:layout_height="42.86dp"
         android:layout_marginStart="2dp"
@@ -39,6 +42,7 @@
         android:background="@drawable/rectangle"
         tools:ignore="MissingConstraints" />
     <EditText
+        android:id="@+id/signPass1"
         android:layout_width="match_parent"
         android:layout_height="42.86dp"
         android:layout_marginStart="2dp"
@@ -50,6 +54,7 @@
         android:background="@drawable/rectangle"
         tools:ignore="MissingConstraints" />
     <EditText
+        android:id="@+id/signPass2"
         android:layout_width="match_parent"
         android:layout_height="42.86dp"
         android:layout_marginStart="2dp"
@@ -61,6 +66,7 @@
         android:background="@drawable/rectangle"
         tools:ignore="MissingConstraints" />
     <Button
+        android:id="@+id/signBtn"
         android:layout_width="140dp"
         android:layout_height="42.86dp"
         android:layout_marginStart="125dp"
@@ -69,5 +75,12 @@
         android:padding="10dp"
         android:background="@drawable/rectangle"
         tools:ignore="MissingConstraints" />
+    <ProgressBar
+        android:id="@+id/signProg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        />
+
 
 </RelativeLayout>
